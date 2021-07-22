@@ -157,3 +157,4 @@ $('.menu-item3').click(function () {
 		scrollTop: $("#section3").offset().top -200
 	}, 800);
 })
+
