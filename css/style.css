@@ -1070,6 +1070,8 @@ button.mfp-arrow,
     .content_2 h2 svg:nth-child(2) {
       right: 20px;
       width: 20px; }
+  .content_2 .swipe .btnAll {
+    flex-direction: column; }
   .content_2 .swipe .swiper-slide {
     border-radius: 50px; }
     .content_2 .swipe .swiper-slide h3 {
@@ -1081,6 +1083,8 @@ button.mfp-arrow,
     width: 80px;
     height: 80px;
     right: -50px; }
+  .content_2 .swipe .swiper-slide:nth-child(2) .words .btns {
+    margin: 5px; }
   .content_3 .container {
     flex-direction: column; }
   .content_3 .left {
