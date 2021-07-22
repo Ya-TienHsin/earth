@@ -656,7 +656,8 @@ h2 {
   position: absolute;
   width: 80%;
   top: 10px;
-  animation: puff-in-center 1s backwards ease-in-out; }
+  left: 50%;
+  transform: translateX(-50%); }
 
 @keyframes show {
   0% {
@@ -800,6 +801,7 @@ button.mfp-arrow,
 .mfp-close-btn-in .mfp-close {
   position: relative;
   background-color: #ff774d;
+  font-family: 'Noto Sans TC', sans-serif;
   color: #fff;
   padding: 5px 20px;
   border-radius: 50px;
@@ -867,6 +869,14 @@ button.mfp-arrow,
     bottom: 50px; }
   .content_3 .boy {
     margin-bottom: -90px; } }
+
+@media (min-width: 1024px) {
+  #tree {
+    width: 300px;
+    height: 300px; }
+  #boy {
+    width: 500px;
+    height: 326px; } }
 
 @media (max-width: 1024px) {
   .kv .zmiddle .tree1 {
