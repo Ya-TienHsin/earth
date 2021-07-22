@@ -1105,6 +1105,7 @@ button.mfp-arrow,
   .content_3 .item1 {
     width: 300px;
     text-align: center;
+    margin: 20px auto;
     margin-left: 60px; }
     .content_3 .item1 h4 {
       width: 300px; }
@@ -1388,3 +1389,18 @@ button.mfp-arrow,
     transform: rotate(-10deg); }
   100% {
     transform: rotate(10deg); } }
+
+.content_2 .swipe .swiper-button-next,
+.content_2 .swipe .swiper-button-prev {
+  display: block !important; }
+
+.content_2 .swipe .swiper-button-prev {
+  transform: rotate(180deg); }
+
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: url("../images/content2/arrow.svg"); }
+
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: url("../images/content2/arrow.svg"); }
